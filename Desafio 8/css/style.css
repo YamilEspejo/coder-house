@@ -1,0 +1,163 @@
+/* Reset */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Roboto:wght@100;300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* End Reset */
+/* Typography */
+h1 {
+  color: #062a7f;
+  font-size: 8rem;
+  margin: 4% 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: #18357c;
+  font-size: 6rem;
+  margin: 4% 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 4rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+  text-align: center;
+}
+
+h4 {
+  font-size: 2rem;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.paragraph {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  margin: 2%;
+}
+
+/* End Typography */
+
+/* Submit */
+#contacts .container-contacts .container-form .contacts-form input[type=submit], .tarriff .contacts-form input[type=submit] {
+  border: none;
+  background-color: #05297f;
+  border-radius: 49px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  line-height: normal;
+  padding: 15px 20px;
+  margin: 2% 0;
+  width: 100px;
+}
+/* End Submit */
+
+/* Section - Card */
+.container-cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.container-cards .card {
+  align-content: stretch;
+  border: 2px solid black;
+  border-radius: 25px;
+  box-shadow: -11px 11px 1px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-basis: 300px;
+  flex-direction: column;
+  height: 400px;
+  margin: 2% 0;
+}
+.container-cards .card .title-icon {
+  align-items: center;
+  display: flex;
+}
+.container-cards .card .title-icon button {
+  border-radius: 25px;
+}
+.container-cards .card .title-icon button .icon-question {
+  height: 37px;
+  width: 37px;
+}
+.container-cards .card .rating {
+  display: block;
+  margin: auto;
+  width: 80px;
+  height: 80px;
+}
+.container-cards .card .product-img {
+  display: block;
+  margin: auto;
+  width: 40%;
+  height: 30%;
+}
+.container-cards .card .simple-price {
+  display: block;
+  font-size: 2.5rem;
+  margin: 5%;
+  text-align: center;
+}
+.container-cards .card .paragraph-price {
+  display: flex;
+  justify-content: center;
+  margin: 5%;
+}
+.container-cards .card .paragraph-price .discount {
+  text-decoration: line-through;
+}
+.container-cards .card .paragraph-price .price {
+  display: flex;
+  font-size: 2.5rem;
+  margin-right: 5%;
+  text-align: center;
+}
+.container-cards .card .paragraph-price select {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 2rem;
+  padding: 4px;
+}
+.container-cards .card .btn-add-to-cart {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8%;
+}
+.container-cards .card .btn-add-to-cart button {
+  background-color: #05297f;
+  border-radius: 15px;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  height: 50px;
+  width: 190px;
+}
+.container-cards .card .btn-add-to-cart button:hover {
+  background-color: #23489e;
+}
+
+#staticBackdrop .modal-dialog .modal-content .modal-body .paragraph-modal {
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* End Section - Card */
